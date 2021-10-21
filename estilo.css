@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+	background-color: steelblue;
+ 
+}
+form{
+	background-color: skyblue;
+	max-width: 500px;
+	widht: 70%;
+	padding: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-45%,-45%);
+}
+form b{
+	color: steelblue;
+}
+form input[type=text]{
+	width: 50%;
+	height: 30px;
+	cursor: pointer;
+	background-color: skyblue;
+	color: darkblue;
+}
+form input[type=submit]{
+	width: 30%;
+	height: 30px;
+	cursor: pointer;
+	background-color: steelblue;
+	color: darkblue;
+}
+form input[type=reset]{
+	width: 30%;
+	height: 30px;
+	cursor: pointer;
+	background-color: steelblue;
+	color: darkblue;
+}
+textarea{
+	background-color: skyblue;
+	color: darkblue;
+
+}
+select{
+	background-color: skyblue;
+
+}
+p{
+	position: absolute;
+	left: 40%;
+	right: 40%;
+}

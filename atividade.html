@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário </title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<p> Exemplo de Formulário</p>
+	<form name="cadastro" method="get" action="forms.php">
+		<b>O que você achou do site?</b><br/><br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="avaliação" value="mb"/>Muito bom
+		<input type="radio" name="avaliação" value="b"/>Bom
+		<input type="radio" name="avaliação" value="r"/>Regular
+		<input type="radio" name="avaliação" value="u"/>Um Lixo<br/><br/>
+		<b>Qual a seção que você mais gostou?<b/><br/><br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select name="tipos">
+			<option> Em cartaz </option> 
+			<option> Trilha Sonora </option> 
+			<option> Galeria de Fotos </option> 
+			<option> Bilheteria </option> 
+			<option> Outra </option> 
+		</select>
+			Outra:
+		<input type="text" name="outra" size="40" maxlength="20"<br/><br/>
+
+		<br/>Digite seus comentários no espaço abaixo:<br/><br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<textarea name="msg" cols="50" rows="8">
+		</textarea> <br/><br/>
+		Diga-nos como entrar em contato com você:<br/><br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Nome &nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="outra" size="40" maxlength="20"<br/><br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	E-mail &nbsp;&nbsp;
+		<input type="text" name="outra" size="40" maxlength="20"<br/><br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Fone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="outra" size="40" maxlength="20"<br/><br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	FAX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="outra" size="40" maxlength="20"<br/><br/><br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="termouso" value="termo"/>
+		Quero receber as novidades do site por e-mail<br/><br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="submit" name="ENVIAR DADOS" value="Enviar Dados">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="reset" name="LIMPAR FORMULÁRIO" value="Limpar Formulário">
+
+
+	</form>
+
+
+</body>
+</html>
